@@ -1,0 +1,157 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+#logo {
+    width: 500px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h2, h3, p, h4, .navbar {
+    color: white;
+    font-family: Impact, fantasy;
+    font-weight: 500;
+}
+
+.navbar a {
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navbar a:hover {
+    background-color: rgb(129, 60, 0);
+}
+
+a {
+    color: cyan;
+}
+
+a:hover {
+    color: white;
+}
+
+#be_alone {
+    width: 400px;
+    float: left;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border-width: 20px;
+    border-color: rgba(125, 192, 125, 0.658);
+    border-style: dashed;
+}
+
+#li {
+    font-size: 35px;
+    color: rgb(186, 255, 186);
+}
+
+#newsong {
+    padding-left: 200px;
+    background-color: rgba(125, 192, 125, 0.658);
+}
+
+h3 {
+    clear: both;
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(255, 119, 0);
+    margin: 60px;
+    border-radius: 10px;
+}
+
+ul {
+    font-size: 25px;
+    margin-right: 300px;
+    padding: 50px;
+    color: white;
+}
+
+h4 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    clear: both;
+}
+
+.xx {
+    font-size: 25px;
+}
+
+i {
+    font-size: 60px;
+}
+
+#skull {
+    position: sticky;
+    top: 0px;
+
+}
+
+#theband {
+    width: 650px;
+    float: right;
+    margin-right: 80px;
+}
+
+p {
+    text-align: center;
+}
+
+.place-info {
+    color: rgb(255, 119, 0);
+    font-size: 22px;
+    display: inline-block;
+
+
+}
+
+#places {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#where {
+    color: white;
+}
+
+button {
+    background-color: rgb(255, 119, 0);
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: Impact, fantasy;
+    font-weight: 500;
+    color: white;
+}
+
+.shop {
+    background-color: gray;
+    display: inline-block;
+}
+
