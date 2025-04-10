@@ -8,14 +8,14 @@ h1 {
 }
 
 #logo {
-    width: 500px;
+    max-width: 500px;
 }
 
 h2 {
     font-size: 60px;
 }
 
-h2, h3, p, h4, .navbar {
+h2, h3, p, h4, .navbar, table, footer, #submit {
     color: white;
     font-family: Impact, fantasy;
     font-weight: 500;
@@ -29,6 +29,8 @@ h2, h3, p, h4, .navbar {
     background-color: rgb(255, 119, 0);
     color: white;
     border-radius: 5px;
+    border-color: black;
+    border-style: solid;
 }
 
 .navbar {
@@ -36,9 +38,15 @@ h2, h3, p, h4, .navbar {
     top: 0px;
     text-align: center;
     justify-content: space-between;
+    z-index: 1000; /* Ensure navbar is above other content */
+
 }
 
 .navbar a:hover {
+    background-color: rgb(129, 60, 0);
+}
+
+button:hover {
     background-color: rgb(129, 60, 0);
 }
 
@@ -151,7 +159,103 @@ button {
 }
 
 .shop {
-    background-color: gray;
-    display: inline-block;
+    text-align: center;
+    border-style: double;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 10px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+table {
+    width: 100%;
+    border: 4px solid white;
+    font-size: 23px;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(95, 95, 95);
+}
+
+tbody {
+    background-color: rgb(222, 222, 222);
+    color: rgb(26, 46, 89);
+    font-size: 18px;
+}
+
+tfoot {
+    background-color: rgb(255, 119, 0);
+    font-family: fantasy;
+}
+
+th, td {
+    padding: 15px;
+}
+
+footer {
+    background-color: rgba(10, 9, 23, 0.6);
+    background-image: url(Images/TLT_logo.webp);
+    background-size: contain;
+    background-repeat: repeat;
+    padding: 60px 100px;
+    font-size: 21px;
+}
+
+label {
+    padding: 0px 10px;
+}
+
+#submit {
+    background-color: rgb(184, 61, 0);
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+}
+
+#submit:hover {
+    background-color: rgb(129, 60, 0);
+}
+
+#skulls {
+    color: red;
+    text-align: center;
+    margin: 50px 0px;
+    width: 100%;
+    animation-name: skulls;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes skulls {
+    0% {color: orange;}
+    25% {color: green;}
+    50% {color: purple;}
+    75% {color: blue;}
+    100% {color: red;}
+  }
+
+#signup {
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(255, 119, 0);
+    border-width: 5px;
+    margin-top: 5px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid rgb(255, 119, 0);
+    border-radius: 5px;
 }
 
