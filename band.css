@@ -74,7 +74,7 @@ a:hover {
 }
 
 #newsong {
-    padding-left: 200px;
+    padding-left: 15%;
     background-color: rgba(125, 192, 125, 0.658);
 }
 
@@ -133,7 +133,7 @@ p {
 
 }
 
-#places {
+.places {
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-color: white;
@@ -143,8 +143,10 @@ p {
     justify-content: space-between;
 }
 
-#where {
+.where {
     color: white;
+    font-size: 22px;
+    display: inline-block;
 }
 
 button {
@@ -259,3 +261,6 @@ input[type="text"], input[type="password"], input[type="email"] {
     border-radius: 5px;
 }
 
+section{
+    margin-bottom: 100px;
+}
